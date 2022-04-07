@@ -1,0 +1,29 @@
+.scrollUp {
+    width: 50px;
+    height: 50px;
+    font-size: 3rem;
+    border: none;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+    border-radius: 50%;
+    background:#FFF;
+    text-align: center;
+    cursor: pointer;
+    color: var(--black);
+    font-size: 1rem;
+    animation: scroll 800ms infinite alternate;
+    position: fixed;
+    right: 10px;
+    bottom: 40px;
+}
+
+@keyframes scroll {
+    from {
+        opacity: 1;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 0.5;
+        transform: translateY(0);
+    }
+}

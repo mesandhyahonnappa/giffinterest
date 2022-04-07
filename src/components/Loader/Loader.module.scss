@@ -1,0 +1,13 @@
+@import "../../styles/respond";
+
+.loader {
+    @include respond(tab-port) {
+        width: 50px;
+        height: 50px
+    }
+    
+    @include respond(phone) {
+        width: 30px;
+        height: 30px
+    }
+}

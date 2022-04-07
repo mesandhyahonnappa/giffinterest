@@ -1,0 +1,43 @@
+@import "../../styles/respond";
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+}
+.logo {
+  cursor: pointer;
+  margin-right: 1rem;
+  img {
+    width: 40px;
+    height: 40px;
+  }
+}
+.giffySearchContainer {
+  margin-top: 82px;
+  width: 100%;
+  padding: 1rem 6rem;
+  @include respond(tab-port) {
+    padding: 2rem;
+  }
+  @include respond(phone) {
+    padding: 10px 0 0 0;
+  }
+}
+.footer {
+  margin: 6px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 2px 6px;
+  background: rgb(204 204 204 / 60%);
+}

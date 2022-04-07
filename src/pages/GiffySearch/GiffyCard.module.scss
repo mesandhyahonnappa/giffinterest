@@ -1,0 +1,23 @@
+.card {
+  border: none;
+  border-radius: 12px;
+  margin-bottom: 27px;
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+  animation: fadeInUp 300ms;
+  
+  img {
+    width: 100%;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 60%, 0);
+  }
+
+  to {
+    opacity: 1;opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
