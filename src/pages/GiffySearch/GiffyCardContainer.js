@@ -4,7 +4,6 @@ import Masonry from "react-masonry-css";
 import classes from "./GiffyCardContainer.module.scss";
 import { fetchGiffies } from "../../utils/fetchGiffies";
 import { useAsync } from "../../hooks/useGiffies";
-import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 import Loader from "../../components/Loader/Loader";
 import { useScrollVisible } from "../../hooks/useScrollVisible";
 
